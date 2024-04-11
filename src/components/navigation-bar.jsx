@@ -19,12 +19,12 @@ export const NavigationBar = () => {
                 ))}
             </ul>
             <span className="flex-1 flex justify-end">
-                <a
-                    href="/kontak"
+                <Link
+                    to="/kontak"
                     className="box-border py-2 px-8 rounded-full bg-[#2d2824] text-white font-semibold hover:text-[#2d2824] border border-transparent hover:bg-transparent hover:border hover:border-[#2d2824] transition-all duration-300"
                 >
                     Kontak
-                </a>
+                </Link>
             </span>
         </div>
     );
