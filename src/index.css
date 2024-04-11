@@ -1,3 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+:root {
+    --font-family: "Rajdhani", sans-serif;
+
+    --border-size-full: 999px;
+
+    /* color palletes */
+    --main-white: #fefefe;
+    --secondary-white: #f0f8f8;
+
+    --main-yellow: #fcd06e;
+    --yellow-shade: #fde3a8;
+
+    --pine-tree: #2d2824;
+    --pine-shade: #787777;
+    --gray-goose: #d5d0cd;
+
+    --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    --cubic-transition: 1.4s cubic-bezier(0.66, 0, 0.34, 1);
+}
+
+@layer base {
+    @font-face {
+        font-family: "ivyPresto";
+        font-style: "thin";
+        font-weight: 400;
+        font-display: swap;
+        src: url("./assets/fonts/IvyPrestoDisplay-Thin.woff2") format("woff2");
+    }
+}
+
+html,
+body {
+    font-family: var(--font-family);
+}
+
+.font-ivyPresto {
+    font-family: ivyPresto;
+}
+
+.nav-item {
+    background-color: transparent;
+    border: none;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.nav-item::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 0;
+    background: #24242a;
+    transition: width 0.3s ease-in;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.active::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #24242a;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
