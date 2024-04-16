@@ -75,6 +75,68 @@ body {
     width: 100%;
 }
 
+/* movile toogle */
+@media screen and (max-width: 768px) {
+    .navbar-toogle {
+        display: flex;
+        width: 50px;
+        height: 50px;
+
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        background: transparent;
+        border: none;
+    }
+
+    .navbar-toogle .bar {
+        position: relative;
+        width: 32px;
+        height: 2px;
+        background: var(--pine-tree);
+        border-radius: 2px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .bar::before,
+    .bar::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        background: var(--pine-tree);
+        border-radius: 2px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .bar::before {
+        width: 25px;
+        transform: translateY(-8px);
+        right: 0;
+    }
+
+    .bar::after {
+        width: 32px;
+        transform: translateY(8px);
+        right: 0;
+    }
+
+    .navbar-toogle.open .bar {
+        transform: translateX(-40px);
+        background: transparent;
+    }
+
+    .navbar-toogle.open .bar::before {
+        width: 32px;
+        transform: rotate(45deg) translate(26px, -26px);
+    }
+
+    .navbar-toogle.open .bar::after {
+        width: 32px;
+        transform: rotate(-45deg) translate(26px, 26px);
+    }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
