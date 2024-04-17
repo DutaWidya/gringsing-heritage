@@ -20,7 +20,7 @@ const datas = [
 const Dashboard = () => {
     return (
         <BaseLayout>
-            <div className="flex flex-col items-center justify-center h-full py-4 mx-auto px-4 md:px-12 text-center">
+            <div className="flex flex-col items-center justify-center h-full  text-center">
                 <div className="py-40 flex flex-col items-center">
                     <h1 className="font-ivyPresto uppercase text-6xl md:text-8xl">
                         Gringsing Heritage!
