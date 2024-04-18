@@ -5,7 +5,6 @@ import { useState } from "react";
 export const Footer = () => {
     const location = useLocation();
     const [open, setOpen] = useState(false);
-    const [navigations] = useState([...navlinks, { id: 6, name: "Kontak", href: "/kontak" }]);
 
     const handleNavbar = () => {
         setOpen((isOpen) => !isOpen);
@@ -23,7 +22,7 @@ export const Footer = () => {
                         }`
                     }
                 >
-                    {navigations.map((nav) => (
+                    {navlinks.map((nav) => (
                         <Link
                             to={nav.href}
                             className={`nav-item ${
@@ -37,7 +36,7 @@ export const Footer = () => {
                     ))}
                 </ul>
             </div>
-            <span className="py-4">© Gringsing Heritage. All Rights Reserved</span>
+            <span className="py-4">&copy; Gringsing Heritage. All Rights Reserved</span>
         </div>
     );
 };

@@ -6,21 +6,11 @@ export const navlinks = [
     },
     {
         id: 2,
-        name: "Sejarah",
-        href: "/sejarah",
+        name: "About",
+        href: "/about",
     },
     {
         id: 3,
-        name: "Motif",
-        href: "/motif",
-    },
-    {
-        id: 4,
-        name: "Kegunaan",
-        href: "/kegunaan",
-    },
-    {
-        id: 5,
         name: "Galeri",
         href: "/galeri",
     },
