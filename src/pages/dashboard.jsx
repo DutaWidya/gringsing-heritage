@@ -26,10 +26,8 @@ const Dashboard = () => {
                         Gringsing Heritage!
                     </h1>
                     <p className="max-w-[800px] text-center py-8">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem debitis
-                        necessitatibus dolores modi blanditiis animi id fugiat explicabo voluptates
-                        consequuntur saepe unde amet, qui aspernatur quasi sed nemo minus!
-                        Excepturi.
+                        Selamat datang di Gringsing Heritage, platform digital yang didedikasikan
+                        untuk melestarikan keindahan dan warisan kain Gringsing Bali.
                     </p>
                 </div>
 
@@ -53,8 +51,13 @@ const Dashboard = () => {
                         necessitatibus dolores modi blanditiis animi id fugiat explicabo voluptates
                         consequuntur saepe unde amet, qui aspernatur quasi sed nemo minus!
                         Excepturi.
-                        <Link></Link>
                     </p>
+                    <Link
+                        to="/about"
+                        className="box-border py-2 px-8 rounded-full bg-[#2d2824] text-white font-semibold hover:text-[#2d2824] border border-transparent hover:bg-transparent hover:border hover:border-[#2d2824] transition-all duration-300"
+                    >
+                        Let&apos;s get started
+                    </Link>
                 </div>
             </div>
         </BaseLayout>
