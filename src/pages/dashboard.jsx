@@ -1,19 +1,40 @@
 import { BaseLayout } from "../layouts";
 import { Section, Card } from "../components";
 import { Link } from "react-router-dom";
+import { BG_3 } from "../assets/images";
 
 const datas = [
     {
         id: 1,
-        imgUrl: "../assets/images/BG_3.webp",
+        imgUrl: BG_3,
         title: "Lorem Ipsum",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, est?",
+        subtitle: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, est?",
+        description:
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe unde natus nihil inventore quo id consequatur totam ipsa quae, commodi repudiandae tempora ratione ut? Delectus molestias dignissimos commodi culpa quae!",
     },
     {
         id: 2,
-        imgUrl: "../assets/images/BG_3.webp",
+        imgUrl: BG_3,
         title: "Lorem Ipsum",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, est?",
+        subtitle: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, est?",
+        description:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod tenetur delectus eius iure dolorum. Ducimus quos maiores minima perferendis beatae eos, debitis sed! Minima inventore officiis optio eum veritatis tempora?",
+    },
+    {
+        id: 3,
+        imgUrl: BG_3,
+        title: "Lorem Ipsum",
+        subtitle: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, est?",
+        description:
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe unde natus nihil inventore quo id consequatur totam ipsa quae, commodi repudiandae tempora ratione ut? Delectus molestias dignissimos commodi culpa quae!",
+    },
+    {
+        id: 4,
+        imgUrl: BG_3,
+        title: "Lorem Ipsum",
+        subtitle: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, est?",
+        description:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod tenetur delectus eius iure dolorum. Ducimus quos maiores minima perferendis beatae eos, debitis sed! Minima inventore officiis optio eum veritatis tempora?",
     },
 ];
 
@@ -32,12 +53,13 @@ const Dashboard = () => {
                 </div>
 
                 <Section title="section 1" number={1} />
-                <div className="flex flex-col gap-6">
+                <div className="grid grid-cols-2 gap-6">
                     {datas.map((data) => (
                         <Card
                             key={data.id}
                             imgUrl={data.imgUrl}
                             title={data.title}
+                            subtitle={data.subtitle}
                             description={data.description}
                         />
                     ))}
