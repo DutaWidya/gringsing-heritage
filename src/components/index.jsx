@@ -3,3 +3,4 @@ export * from "./footer";
 export * from "./section";
 export * from "./card";
 export * from "./slider";
+export * from "./filtering";

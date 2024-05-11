@@ -7,11 +7,6 @@ const show =
 const hide =
     "isolate bg-white fixed -top-[90px] left-0 right-0 ease-in-out duration-500 z-10 bg-white/50 backdrop-blur";
 
-// className={
-//     "sticky top-0 bg-white/50 backdrop-blur contianer py-5 px-4 md:px-12 flex justify-between ease-in-out transition-all duration-1000 items-center " +
-//     `${open ? " h-[100vh] " : " h-[90px] "}`
-// }
-
 export const NavigationBar = () => {
     const location = useLocation();
     const prevScrollY = useRef(0);
