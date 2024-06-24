@@ -2,43 +2,19 @@ import { BaseLayout } from "../layouts";
 import { Section, Card, FilterSelect } from "../components";
 import { Link } from "react-router-dom";
 import { BG_3 } from "../assets/images";
-
-const datas = [
-    {
-        id: 1,
-        imgUrl: BG_3,
-        title: "Lorem Ipsum",
-        subtitle: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, est?",
-        description:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe unde natus nihil inventore quo id consequatur totam ipsa quae, commodi repudiandae tempora ratione ut? Delectus molestias dignissimos commodi culpa quae!",
-    },
-    {
-        id: 2,
-        imgUrl: BG_3,
-        title: "Lorem Ipsum",
-        subtitle: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, est?",
-        description:
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod tenetur delectus eius iure dolorum. Ducimus quos maiores minima perferendis beatae eos, debitis sed! Minima inventore officiis optio eum veritatis tempora?",
-    },
-    {
-        id: 3,
-        imgUrl: BG_3,
-        title: "Lorem Ipsum",
-        subtitle: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, est?",
-        description:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe unde natus nihil inventore quo id consequatur totam ipsa quae, commodi repudiandae tempora ratione ut? Delectus molestias dignissimos commodi culpa quae!",
-    },
-    {
-        id: 4,
-        imgUrl: BG_3,
-        title: "Lorem Ipsum",
-        subtitle: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, est?",
-        description:
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod tenetur delectus eius iure dolorum. Ducimus quos maiores minima perferendis beatae eos, debitis sed! Minima inventore officiis optio eum veritatis tempora?",
-    },
-];
+import { useState } from "react";
+import { useSearchDataKain } from "../hooks";
 
 const Dashboard = () => {
+    const [pencarian, setPencarian] = useState("");
+    const { dataKain, error, isLoading } = useSearchDataKain(pencarian ? pencarian : "");
+
+    const handleChange = (e) => {
+        e.preventDefault();
+        const { value } = e.target;
+        setPencarian(value);
+    };
+
     return (
         <BaseLayout>
             <div className="flex flex-col items-center justify-center h-full text-center">
@@ -59,31 +35,51 @@ const Dashboard = () => {
                     </h1>
 
                     {/* filtering here */}
-                    <div className="grid md:grid-cols-3 gap-3 text-left border p-3">
-                        <FilterSelect />
+                    <div className="">
+                        <input
+                            type="text"
+                            name="pencarian"
+                            id="pencarian"
+                            placeholder="Search..."
+                            className="w-full h-full p-3 border border-gray-400 focus-visible:ring-transparent focus-visible:outline-1 focus-visible:outline-gray-600/50"
+                            value={pencarian}
+                            onChange={handleChange}
+                        />
                     </div>
-
-                    <div className="grid md:grid-cols-2 gap-4">
-                        {datas.map((data) => (
-                            <Card
-                                key={data.id}
-                                imgUrl={data.imgUrl}
-                                title={data.title}
-                                subtitle={data.subtitle}
-                                description={data.description}
-                            />
-                        ))}
-                    </div>
+                    {isLoading ? (
+                        <div className="border w-full text-center py-8 text-xl ">
+                            <p>Loading...</p>
+                        </div>
+                    ) : (
+                        <>
+                            {dataKain.length > 0 ? (
+                                <div className="grid md:grid-cols-2 gap-4">
+                                    {dataKain.map((data, i) => (
+                                        <Card
+                                            key={i}
+                                            title={data.nama_motif}
+                                            description={data.deskripsi_motif}
+                                        />
+                                    ))}
+                                </div>
+                            ) : (
+                                <div className="border w-full text-center py-8 text-xl ">
+                                    <p>No Data Found</p>
+                                </div>
+                            )}
+                        </>
+                    )}
                 </div>
 
                 <Section title="section 2" number={2} />
                 <div className="py-40 flex flex-col items-center">
                     <h1 className="font-ivyPresto uppercase text-6xl md:text-8xl">learn more!</h1>
                     <p className="max-w-[800px] text-center py-8">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem debitis
-                        necessitatibus dolores modi blanditiis animi id fugiat explicabo voluptates
-                        consequuntur saepe unde amet, qui aspernatur quasi sed nemo minus!
-                        Excepturi.
+                        Apakah Anda penasaran dengan keunikan dan keindahan Kain Gringsing? Jangan
+                        lewatkan kesempatan untuk menggali lebih dalam dan menemukan berbagai
+                        informasi menarik yang telah kami siapkan. Kunjungi halaman About untuk
+                        mengetahui lebih banyak dan memperkaya wawasan Anda tentang kain tradisional
+                        yang menakjubkan ini.
                     </p>
                     <Link
                         to="/about"

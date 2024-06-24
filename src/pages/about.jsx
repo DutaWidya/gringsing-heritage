@@ -1,7 +1,11 @@
 import { BaseLayout } from "../layouts";
-import { Section, Slider } from "../components";
+import { Section } from "../components";
 
 const About = () => {
+    const image1 = new URL("/about/ATBM.png", import.meta.url).href; //Alat tenun bukan mesin
+    const image2 = new URL("/about/hasilcelup.png", import.meta.url).href; //Hasil pewarnaan pertama
+    const image3 = new URL("/about/prosesnenun.png", import.meta.url).href; //Alat tenun tradisional
+
     return (
         <BaseLayout>
             <div className="flex flex-col items-center justify-center md:py-20 gap-3">
@@ -128,7 +132,7 @@ const About = () => {
                     </p>
 
                     {/* Insert Image ATBM Here  */}
-                    <img src="#" alt="Alat tenun bukan mesin" className="self-center" />
+                    <img src={image1} alt="Alat tenun bukan mesin" className="self-center" />
 
                     <p className="text-xl indent-8 text-justify">
                         Setelah pemintalan selesai, benang direndam dalam minyak kemiri yang
@@ -159,8 +163,8 @@ const About = () => {
                         merah.
                     </p>
 
-                    {/* Insert Image Pencelupan Here  */}
-                    <img src="#" alt="Hasil pewarnaan pertama" className="self-center" />
+                    {/* Insert Image Here  */}
+                    <img src={image2} alt="Hasil pewarnaan pertama" className="self-center" />
 
                     <p className="text-xl indent-8 text-justify">
                         Setelah merah dicapai, ikatan terakhir dilepas untuk memberikan warna kuning
@@ -170,8 +174,8 @@ const About = () => {
                         alat tenun tradisional hingga menjadi kain Gringsing yang indah.
                     </p>
 
-                    {/* Insert Image Pencelupan Here  */}
-                    <img src="#" alt="Alat tenun tradisional" className="self-center" />
+                    {/* Insert Image Here  */}
+                    <img src={image3} alt="Alat tenun tradisional" className="self-center" />
                 </div>
 
                 <Section number={3} title="Warna & Motif Kain Gringsing" />
