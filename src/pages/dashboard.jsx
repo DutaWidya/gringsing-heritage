@@ -75,10 +75,11 @@ const Dashboard = () => {
                 <div className="py-40 flex flex-col items-center">
                     <h1 className="font-ivyPresto uppercase text-6xl md:text-8xl">learn more!</h1>
                     <p className="max-w-[800px] text-center py-8">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem debitis
-                        necessitatibus dolores modi blanditiis animi id fugiat explicabo voluptates
-                        consequuntur saepe unde amet, qui aspernatur quasi sed nemo minus!
-                        Excepturi.
+                        Apakah Anda penasaran dengan keunikan dan keindahan Kain Gringsing? Jangan
+                        lewatkan kesempatan untuk menggali lebih dalam dan menemukan berbagai
+                        informasi menarik yang telah kami siapkan. Kunjungi halaman About untuk
+                        mengetahui lebih banyak dan memperkaya wawasan Anda tentang kain tradisional
+                        yang menakjubkan ini.
                     </p>
                     <Link
                         to="/about"

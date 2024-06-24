@@ -2,9 +2,9 @@ import { BaseLayout } from "../layouts";
 import { Section } from "../components";
 
 const About = () => {
-    const image1 = new URL("/about/nama_gambar.png", import.meta.url).href; //Alat tenun bukan mesin
-    const image2 = new URL("/about/nama_gambar.png", import.meta.url).href; //Hasil pewarnaan pertama
-    const image3 = new URL("/about/nama_gambar.png", import.meta.url).href; //Alat tenun tradisional
+    const image1 = new URL("/about/ATBM.png", import.meta.url).href; //Alat tenun bukan mesin
+    const image2 = new URL("/about/hasilcelup.png", import.meta.url).href; //Hasil pewarnaan pertama
+    const image3 = new URL("/about/prosesnenun.png", import.meta.url).href; //Alat tenun tradisional
 
     return (
         <BaseLayout>
