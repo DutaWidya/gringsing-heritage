@@ -6,6 +6,7 @@ import About from "../pages/about";
 import NotFound from "../pages/not-found";
 import Galery from "../pages/galery";
 import Details from "../pages/details";
+import Kontak from "../pages/kontak";
 
 const Routes = () => {
     return (
@@ -15,6 +16,7 @@ const Routes = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/galeri" element={<Galery />} />
                 <Route path="/detail" element={<Details />} />
+                <Route path="/kontak" element={<Kontak />} />
                 <Route path="*" element={<NotFound />} />
             </Router>
         </BrowserRouter>
