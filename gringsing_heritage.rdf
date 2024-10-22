@@ -1,0 +1,1002 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6/"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#BerasalDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#BerasalDari">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#KainGringsing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#DaerahPengrajin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#MemilikiFungsi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#MemilikiFungsi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Ukuran"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#MemilikiMotif -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#MemilikiMotif">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Ukuran"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Warna"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#MemilikiUkuran -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#MemilikiUkuran">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Ukuran"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#MemilikiWarna -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#MemilikiWarna">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Warna"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#TerbuatDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#TerbuatDari">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#KainGringsing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#DaerahPengrajin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#DaerahPengrajin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#DaerahPengrajin"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#DeskripsiMotif -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#DeskripsiMotif">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Ukuran -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Ukuran">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Ukuran"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Warna -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Warna">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Warna"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#KainGringsing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#DaerahPengrajin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#DaerahPengrajin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#KainGringsing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#KainGringsing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#KainGringsing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#KainGringsing">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#KainGringsing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Ukuran -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Ukuran">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#KainGringsing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Warna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Warna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#KainGringsing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#air_nasi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#air_nasi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan"/>
+        <untitled-ontology-6:TerbuatDari rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#air_nasi"/>
+        <untitled-ontology-6:Bahan>air nasi</untitled-ontology-6:Bahan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#batun_tuwung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#batun_tuwung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#batun_tuwung"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Batun Tuwung, dilihat dari namanya motif ini mengambil bentuk atau dari Biji Timun. Sekilas motif ini akan tampak sama dengan motif gegonggangan, namun yang membedakan adalah motif tambah kecil yang tersebar diantara titi gonggang sehingga menyerupai biji timun.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>batun tuwung</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cakra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cakra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cakra"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Cakra merupakan motif yang diambil dari salah satu Dewa Trimurti yaitu Dewa Wisnu.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>cakra</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cecempakan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cecempakan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cecempakan"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif cecempakan, motif ini merupakan pngembangan dari motif dasar yang merupakan stiliran dari bentuk tanaman yatu bunga cempaka atau disebut Cempaka Mededari, yaitu bunga cempaka yang pada tangkainya ditumbuhi daun kecil. Cempaka Mededari merupakan bunga yang disucikan dan sangat jarang ditemui.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>cecempakan</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif cemplong, motif ini merupakan stiliran dari flora (bunga) yang berserakan atau oleh masyarakat Tenganan disebut Nyemplong (cemplong).</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>cemplong</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong_memedi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong_memedi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong_memedi"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif cemplong Memedi, motif ini merupakan pengembangan dari motif cemplong, dimana pada motif ini bunga-bunga cemplong memiliki dimensi yang lebih kecil, sehingga oleh masyarakat tenganan juga sering disebut cemplong Cenik.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>cemplong memedi</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#daun_taum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#daun_taum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan"/>
+        <untitled-ontology-6:TerbuatDari rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#daun_taum"/>
+        <untitled-ontology-6:Bahan>daum taum</untitled-ontology-6:Bahan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#desa_bugbug -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#desa_bugbug">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#DaerahPengrajin"/>
+        <untitled-ontology-6:BerasalDari rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#desa_bugbug"/>
+        <untitled-ontology-6:DaerahPengrajin>desa bugbug</untitled-ontology-6:DaerahPengrajin>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#desa_tenganan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#desa_tenganan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#DaerahPengrajin"/>
+        <untitled-ontology-6:BerasalDari rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#desa_tenganan"/>
+        <untitled-ontology-6:DaerahPengrajin>desa tenganan</untitled-ontology-6:DaerahPengrajin>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_ai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_ai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_ai"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Dinding Ai, motif ini merupakan motif yang mengambil bentuk tirai matahari (Ai) atau juga dapat diartikan sebagai stiliran dari Nyawan (tawon) Dinding Ai.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>dinding ai</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_sigading -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_sigading">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_sigading"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Dinding Sigading, dilihat dari namanya motif ini mengambil bentuk dari bunga srigading yang disusun secara teratur sehingga menyerupai tirai atau dinding.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>dinding sigading</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#enjekan_siap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#enjekan_siap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#enjekan_siap"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Enjekan Siap, motif ini mengambil bentuk dari jejak kaki ayam, dimana ayam merupakan fauna yang dekat dengan kehidupan masyarakat Tenganan baik dalam ritual-ritual adat, keagamaan, maupun untuk kebutuhan pangan sehari-hari.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>enjekan siap</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gegonggangan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gegonggangan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gegonggangan"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif gegonggangan, motif ini memiliki makna sebuah “Titi Gonggang” yaitu sebuah jembatan tali dialam roh yang harus dilewati oleh seseorang yang dimasa hidupnya memiliki prilaku tidak baik.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>gegonggangan</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Ukuran"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#saput"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#selendang"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#batun_tuwung"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cakra"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cecempakan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_ai"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_sigading"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#enjekan_siap"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gegonggangan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_isi_atau_putri_dedari"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_gambir"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_tridatu"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lanang"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lubeng"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#panggal_asu"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pepare"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pitara"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sih_tan_pegat"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tali_dandan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#teteledan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tledu_nginyah"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#trisula"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#waton"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_candi"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_kebo"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_putri"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#yudha"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:Ukuran>besar</untitled-ontology-6:Ukuran>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_isi_atau_putri_dedari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_isi_atau_putri_dedari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_isi_atau_putri_dedari"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#putih_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif ini termasuk kedalam jenis motif wayang-wayangan, dimana jenis motif ini hanya memiliki dua warna saja yaitu hitam dan putih, serta beberapa motif jua menggambarkan bentuk-bentuk tokoh pewayangan. Namun, pada Motif Gringsing Isi tidak terdapat tokoh pewayangan, melainkan terdapat bentuk cili sebagai lambang Dewi Kahyangan/ Putri Dedari.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>gringsing isi atau putri dedari</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Ukuran"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lamak"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#oncer"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sabuk_saput"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sabuk_tubuan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#batun_tuwung"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cakra"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cecempakan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong_memedi"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_ai"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_sigading"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#enjekan_siap"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gegonggangan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_gambir"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_tridatu"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lanang"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lubeng"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#panggal_asu"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pepare"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pitara"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sih_tan_pegat"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tali_dandan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#teteledan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tledu_nginyah"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#trisula"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#waton"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#yudha"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:Ukuran>kecil</untitled-ontology-6:Ukuran>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Ukuran"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kalung"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#saput"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#selendang"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sesenteng"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#batun_tuwung"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cakra"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cecempakan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong_memedi"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_ai"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_sigading"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#enjekan_siap"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gegonggangan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_isi_atau_putri_dedari"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_gambir"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_tridatu"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lanang"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lubeng"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#panggal_asu"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pepare"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pitara"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sih_tan_pegat"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tali_dandan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#teteledan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tledu_nginyah"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#trisula"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#waton"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_candi"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_kebo"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_putri"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#yudha"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:Ukuran>sedang</untitled-ontology-6:Ukuran>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kalung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kalung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kalung"/>
+        <untitled-ontology-6:FungsiKain>kalung</untitled-ontology-6:FungsiKain>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kapuk_berbiji_satu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kapuk_berbiji_satu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan"/>
+        <untitled-ontology-6:TerbuatDari rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kapuk_berbiji_satu"/>
+        <untitled-ontology-6:Bahan>Kapuk berbiji satu</untitled-ontology-6:Bahan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_gambir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_gambir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_gambir"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_putih_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif ini merupakan pengembangan dari motif poleng tridatu. Namun pada motif ini kotak poleng hanya tersusun dari warna hitam dan putih, sedangkan warna merah dengan bentuk tambah akan ditemukan di tengah-tengah setiap kotak. Motif ini merubakan stliran dari gambir, dimana gambir sering dikonsumsi oleh masyarakat Tenganan yang biasa dicampur dengan daun sirih, pamor, dan buah (nampin)</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>kotak gambir</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_tridatu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_tridatu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_tridatu"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_putih_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif kotak tridatu merupakan pengembangan motif dasar yang paling sederhana berbentuk kotak-kotak dengan warna tridatu (putih, merah, dan hitam).</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>kotak tridatu</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kulit_akar_mengkudu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kulit_akar_mengkudu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan"/>
+        <untitled-ontology-6:TerbuatDari rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kulit_akar_mengkudu"/>
+        <untitled-ontology-6:Bahan>kulit akar mengkudu</untitled-ontology-6:Bahan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lamak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lamak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lamak"/>
+        <untitled-ontology-6:FungsiKain>lamak</untitled-ontology-6:FungsiKain>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lanang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lanang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lanang"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Lanang, dilihat dari nama lanang yang berarti laki-laki, motif gringsing ini didominasi oleh bentuk-bentuk senjata (tombak, cakra) sebagai simbol kejantanan/ laki-laki.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>lanang</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lubeng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lubeng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lubeng"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Lubeng, menurut beberapa sumber motif ini mengambil bentuk dari bintang-bintang yang bertebaran di langit.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>lubeng</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Warna"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#batun_tuwung"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cakra"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cecempakan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#cemplong_memedi"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_ai"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#dinding_sigading"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#enjekan_siap"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gegonggangan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lanang"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#lubeng"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#panggal_asu"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pepare"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pitara"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sih_tan_pegat"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tali_dandan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#teteledan"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tledu_nginyah"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#trisula"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#yudha"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:Warna>merah kuning dan hitam</untitled-ontology-6:Warna>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_putih_dan_hitam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_putih_dan_hitam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Warna"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_gambir"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#kotak_tridatu"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#waton"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_putih_dan_hitam"/>
+        <untitled-ontology-6:Warna>merah putih dan hitam</untitled-ontology-6:Warna>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#minyak_kemiri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#minyak_kemiri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan"/>
+        <untitled-ontology-6:TerbuatDari rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#minyak_kemiri"/>
+        <untitled-ontology-6:Bahan>minyak kemiri</untitled-ontology-6:Bahan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#nusa_penida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#nusa_penida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#DaerahPengrajin"/>
+        <untitled-ontology-6:BerasalDari rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#nusa_penida"/>
+        <untitled-ontology-6:DaerahPengrajin>nusa penida</untitled-ontology-6:DaerahPengrajin>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#oncer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#oncer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#oncer"/>
+        <untitled-ontology-6:FungsiKain>oncer</untitled-ontology-6:FungsiKain>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#panggal_asu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#panggal_asu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#panggal_asu"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Panggal Asu yang merupakan stiliran dari gigi anjing akan berbentuk persegi.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>panggal asu</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pepare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pepare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pepare"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Pepare, merupakan motif yang mengambil bentuk pare yang terbelah.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>pepare</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pisang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pisang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan"/>
+        <untitled-ontology-6:TerbuatDari rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pisang"/>
+        <untitled-ontology-6:Bahan>pisang</untitled-ontology-6:Bahan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pitara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pitara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#pitara"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Pitara, dilihat dari namanya yang berarti roh leluhur, sehingga pada motif ini terdapat bentuk-bentuk yang merupakan stiliran dari alat upacara yang biasa digunakan oleh masyarakat Tenganan seperti, capah, bungan base, termasuk juga senjata, dan kembang.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>pitara</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#putih_dan_hitam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#putih_dan_hitam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Warna"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_isi_atau_putri_dedari"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_candi"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_kebo"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_putri"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#putih_dan_hitam"/>
+        <untitled-ontology-6:Warna>putih dan hitam</untitled-ontology-6:Warna>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sabuk_saput -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sabuk_saput">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sabuk_saput"/>
+        <untitled-ontology-6:FungsiKain>sabuk saput</untitled-ontology-6:FungsiKain>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sabuk_tubuan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sabuk_tubuan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sabuk_tubuan"/>
+        <untitled-ontology-6:FungsiKain>sabuk tubuan</untitled-ontology-6:FungsiKain>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#saput -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#saput">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#saput"/>
+        <untitled-ontology-6:FungsiKain>saput</untitled-ontology-6:FungsiKain>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#selendang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#selendang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#selendang"/>
+        <untitled-ontology-6:FungsiKain>selendang</untitled-ontology-6:FungsiKain>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sesenteng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sesenteng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#FungsiKain"/>
+        <untitled-ontology-6:MemilikiFungsi rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sesenteng"/>
+        <untitled-ontology-6:FungsiKain>sesenteng</untitled-ontology-6:FungsiKain>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sih_tan_pegat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sih_tan_pegat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#sih_tan_pegat"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>motif gringsing ini memiliki makna kasih yang tak terputuskan (Sih Tan Pegat). Sehingga pada motif ini terdapat dua bentuk yang melambangkan, atau simbol dari laki-laki dan perempuan yang diikat dengan tali yang sambung menyambung.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>sih tan pegat</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tali_dandan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tali_dandan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tali_dandan"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Tali Dandan, dilihat dari namanya motif ini memiliki arti tali yang sambung menyambung. Pada motif ini didominasi oleh bentuk tali yang tersusun dari titik-titik sehingga menyerupai garis saling berselang-seling, bertaut di antara motif-motif lain.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>tali dandan</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tape -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tape">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Bahan"/>
+        <untitled-ontology-6:TerbuatDari rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tape"/>
+        <untitled-ontology-6:Bahan>tape</untitled-ontology-6:Bahan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#teteledan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#teteledan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#teteledan"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Teteledan, sama seperti Sih Tan Pegat, pada motif ini juga terdapat bentuk tali yang menghubungkan motif-motif bunga yang disusun secara diagonal dengan teratur dan seimbang.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>teteledan</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tledu_nginyah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tledu_nginyah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#tledu_nginyah"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Tledu Nginyah menggambarkan kalajengking yang sedang berjemur.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>tledu nginyah</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#trisula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#trisula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#trisula"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Trisula merupakan motif yang mengambil salah satu senjata Dewa Trimurti yaitu Dewa Siwa</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>trisula</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#waton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#waton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#waton"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_putih_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif ini merupakan pengembangan dari motif Batun Cagi dengan motif kotak gambir, dimana kotak putih dengan warna merah di tengahnya dikombinasikan dengan motif yang ada pada batun Cagi. dikombinasikan dengan motif yang ada pada batun Cagi.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>waton</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_candi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_candi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_candi"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#putih_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Wayang Candi, Sama seperti motif wayang lainnya, motif ini terdiri dari dua warna yaitu hitam dan putih. Pada motif ini terdapat bentuk yang menyerupai candi bentar dengan wayang di sisi kanan dan kirinya oleh karena itu motif ini diberi nama Motif Wayang Candi.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>wayang candi</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_kebo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_kebo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_kebo"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#putih_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Wayang Kebo terdapat 3 tokoh pewayangan yang terdapat pada kain.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>wayang kebo</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_putri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_putri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#wayang_putri"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#putih_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Wayang Putri terdapat 2 tokoh pewayangan yang digambarkan sedang metetangkilan (menghadap).</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>wayang putri</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#yudha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#yudha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#Motif"/>
+        <untitled-ontology-6:MemilikiMotif rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#yudha"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_besar"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_kecil"/>
+        <untitled-ontology-6:MemilikiUkuran rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#gringsing_sedang"/>
+        <untitled-ontology-6:MemilikiWarna rdf:resource="http://www.semanticweb.org/asus/ontologies/2024/5/untitled-ontology-6#merah_kuning_dan_hitam"/>
+        <untitled-ontology-6:DeskripsiMotif>Motif Yudha, motif ini merupakan pengembangan dari motif lanang. Motif ini mengambil bentuk dari tamyang (tameng) yang biasa digunakan oleh masyarakat Tenganan pada saat upacara adat Perang Pandan.</untitled-ontology-6:DeskripsiMotif>
+        <untitled-ontology-6:Motif>yudha</untitled-ontology-6:Motif>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
