@@ -1,0 +1,36 @@
+
+# Panduan Menjalankan Program Gringsing Heritage
+
+1. Persiapan Awal:
+   - Pastikan komputer Anda sudah terinstal Node.js, NPM (Node Package Manager), dan Apache Jena Fuseki.
+   - Anda juga perlu memastikan koneksi internet yang stabil untuk mengakses web aplikasi.
+
+2. Menjalankan Aplikasi Web Gringsing Heritage:
+   - Buka browser web Anda (seperti Google Chrome, Firefox, atau Edge).
+   - Masukkan URL berikut pada kolom alamat browser: https://gringsing-heritage.vercel.app/
+   - Tekan enter dan aplikasi web Gringsing Heritage akan terbuka.
+
+3. Menjalankan Apache Jena Fuseki dengan File Ontologi:
+   - Buka terminal/command prompt di komputer Anda.
+   - Arahkan direktori ke folder instalasi Apache Jena Fuseki.
+   - Jalankan Fuseki dengan perintah berikut:
+     ./fuseki-server
+   - Setelah Fuseki berjalan, buka browser web dan masukkan URL berikut:
+     http://localhost:3030/
+   - Di halaman Fuseki, klik "Datasets" dan buat dataset baru dengan nama gringsing_heritage.
+   - Upload file ontologi gringsing_heritage.owl ke dalam dataset tersebut melalui fitur "Upload Data".
+
+4. Menghubungkan Aplikasi dengan Ontologi:
+   - Pastikan dataset gringsing_heritage yang berisi ontologi sudah aktif di Fuseki.
+   - Aplikasi web Gringsing Heritage akan otomatis mengambil data dari Fuseki yang berjalan di localhost:3030.
+
+5. Pengujian Aplikasi:
+   - Lakukan pencarian melalui fitur yang tersedia di aplikasi, seperti pencarian dengan keyword atau menggunakan filter (motif, ukuran, warna).
+   - Pastikan data yang ditampilkan berasal dari file ontologi yang telah di-upload ke Apache Jena Fuseki.
+
+6. Troubleshooting:
+   - Jika data tidak muncul di aplikasi web, pastikan:
+     - Fuseki sudah berjalan dengan benar di localhost:3030.
+     - Dataset gringsing_heritage sudah ter-upload dan berisi file ontologi yang sesuai.
+     - Koneksi antara aplikasi web dan server lokal tidak terputus.
+   - Periksa juga apakah browser Anda mengalami kendala seperti cache yang harus dibersihkan.
